@@ -75,6 +75,9 @@ hr{
   border-color: #EAF6F6;
   margin: 100px auto;
 }
+
+
+
 .skill-row{
   width: 50%;
   margin: 100px auto;
@@ -134,4 +137,27 @@ hr{
   background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
   background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
   background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+}
+@media (max-width:800px){
+  .desc1,.desc2{
+    clear: both;
+  }
+  .java,.pc{
+    width: 50%;
+    float: none;
+    margin: 0;
+  }
+  .skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+  }
+
+  .top-cloud{
+    right: 50px;
+  }
+
+  .bottom-cloud{
+    left: 50px;
+  }
 }
