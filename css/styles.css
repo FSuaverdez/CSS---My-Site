@@ -2,6 +2,7 @@ body {
   text-align: center;
   margin: 0;
   font-family: "Merriweather", serif;
+  color: #40514E;
 }
 
 h1 {
@@ -37,30 +38,100 @@ span {
   padding-top: 100px;
 }
 
+.intro{
+  width: 50%;
+  margin:auto;
+}
+
+
 .middle-container {
+  margin: 100px 0;
 }
 
 .bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0px 20px;
+}
+a{
+  color: rgba(20, 86, 88, 0.795);
+  font-family: "Montserrat", sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+p{
+  line-height: 2;
 }
 
-.java {
-  width: 200px;
+.cpyr{
+  color: #EAF6F6;
+}
+hr{
+  border-style: dotted none none none;
+  width: 4%;
+  border-width: 6px;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
 }
 .pc {
-  width: 200px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
 }
 .profile img {
-  width: 200px;
+  width: 25%;
+}
+
+.java{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .bottom-cloud {
   position: absolute;
-  bottom: 300px;
+  bottom: 250px;
   left: 300px;
 }
 
 .top-cloud {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 300px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+  text-decoration: none;
+}
+.btn:hover {
+  font-family: "Montserrat", sans-serif;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
 }
