@@ -137,6 +137,7 @@ hr{
   background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
   background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
   background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  text-decoration: none;
 }
 @media (max-width:800px){
   .desc1,.desc2{
