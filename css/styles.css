@@ -52,13 +52,13 @@ span {
   background-color: #66bfbf;
   padding: 50px 0px 20px;
 }
-.bottom-container a{
+ a{
   color: rgba(20, 86, 88, 0.795);
   font-family: "Montserrat", sans-serif;
   margin:10px 20px;
   text-decoration: none;
 }
-a:hover{
+.bottom-container a:hover{
   text-decoration: underline;
 }
 p{
